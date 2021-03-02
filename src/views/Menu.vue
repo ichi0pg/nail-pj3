@@ -8,7 +8,7 @@
       <div class="title">
         <div class="section-title">
           <img class="wing" src="../assets/line5.png" alt="CONCEPT">
-          <h1>MENU</h1>
+          <h2>MENU</h2>
         </div>
       </div>
       <div class="menu">
@@ -32,7 +32,7 @@
       <div class="title"  ref="gelmenu">
         <div class="section-title">
           <img class="wing" src="../assets/line5.png" alt="CONCEPT">
-          <h1>GEL MENU</h1>
+          <h2>GEL MENU</h2>
         </div>
       </div>
       <div class="gel-menu">
@@ -95,7 +95,7 @@
       <div class="title" ref="careoff">
         <div class="section-title">
           <img class="wing" src="../assets/line5.png" alt="CONCEPT">
-          <h1>CARE & OFF</h1>
+          <h2>CARE & OFF</h2>
         </div>
       </div>
       <div class="careoff">
@@ -169,7 +169,7 @@
       <div class="title" ref="other">
         <div class="section-title">
           <img class="wing" src="../assets/line5.png" alt="CONCEPT">
-          <h1>OTHER</h1>
+          <h2>OTHER</h2>
         </div>
       </div>
       <div class="other">
@@ -466,10 +466,6 @@ p.menu-title {
 }
 
 /* 猫 */
-.cat {
-  width: 100%;
-  text-align: right;
-}
 .cat4 img {
   position: initial;
   width: 10%;
@@ -568,6 +564,7 @@ p.menu-title {
   }
   .menu-wrap {
     height: 150px;
+    border-radius: 25px;
   }
   .gel-wrap,
   .careoff-wrap,

@@ -46,7 +46,7 @@ export default {
 </script>
 <style scoped>
 .header-wrap {
-  height: 80px;
+  height: 90px;
   background-color: #000;
   display: flex;
   justify-content: space-between;
@@ -154,7 +154,7 @@ a.header-nav li {
     display: none;
   }
   .header-wrap {
-    height: 50px;
+    height: 60px;
   }
   .header-logo {
     height: 70%;
@@ -179,7 +179,7 @@ a.header-nav li {
     top: 26px;
   }
   .header-wrap {
-    height: 40px;
+    height: 50px;
   }
 }
 </style>

@@ -3,12 +3,13 @@
     <Header />
     <div id="eyechatch">
       <img src="../assets/prf.jpg">
+      <h1 class="top-title5">PROFILE & CONTACT</h1>
     </div>
     <div class="main">
       <div class="title">
         <div class="section-title">
           <img class="wing2" src="../assets/line1.png" alt="CONCEPT">
-          <h1>PROFILE</h1>
+          <h2>PROFILE</h2>
         </div>
       </div>
       <div class="prf-menu">
@@ -30,20 +31,20 @@
         <div class="title">
           <div class="section-title">
             <img class="wing2" src="../assets/line1.png" alt="contact">
-            <h1>CONTACT</h1>
+            <h2>CONTACT</h2>
           </div>
         </div>
         <div class="second-wrap">
           <div class="wrap2">
             <div class="res-left">
-              <h2>予約ついて</h2>
-              <p class="reserve">土日限定<br>予約時間9:00~14:00<br><br>仕事などの関係で希望日に予約がとれない場合があります。<br><br>18:00までには終わらせたいので、時間に縛りはありませんがデザイン等悩まれる方は、時間にゆとりを持って予約をしていただくようにお願いします。</p>
+              <h3>予約ついて</h3>
+              <p class="reserve"><b>土日限定<br>予約時間9:00~14:00</b><br><br>仕事などの関係で希望日に予約がとれない場合があります。<br><br>18:00までには終わらせたいので、時間に縛りはありませんがデザイン等悩まれる方は、時間にゆとりを持って予約をしていただくようにお願いします。</p>
             </div>
           </div>
           <div class="wrap2">
             <div class="acc-right">
-              <h2>ACCESS</h2>
-              <p class="access">豊田市<br>敷地内に駐車場があります。<br><br>車高が低い、長さがある車は入って来られないかもしれません。<br><br>電車などでお越しの場合は駅までお迎えに行くので、予約の際に教えてください。<br><br>実家なので、詳細な住所はLINEにてご連絡させていただきます。</p>
+              <h3>ACCESS</h3>
+              <p class="access"><b>豊田市</b><br>敷地内に駐車場があります。<br><br>車高が低い、長さがある車は入って来られないかもしれません。<br><br>電車などでお越しの場合は駅までお迎えに行くので、予約の際に教えてください。<br><br>実家なので、詳細な住所はLINEにてご連絡させていただきます。</p>
             </div>
           </div>
         </div>
@@ -68,9 +69,6 @@ export default {
 </script>
 
 <style>
-.img2 {
-  display: none;
-}
 .section-title {
   text-align: center;
 }
@@ -133,7 +131,7 @@ export default {
 .res-left,
 .acc-right {
   width: 80%;
-  height: 260px;
+  height: 270px;
   margin: auto;
   padding: 20px;
   border-radius: 50px;
@@ -146,10 +144,8 @@ export default {
   margin-top: 20px;
   font-size: 14px;
 }
-.cat {
-  width: 100%;
-  text-align: right;
-}
+
+/* 猫 */
 .cat2 img {
   position: initial;
   width: 10%;
@@ -158,12 +154,6 @@ export default {
 }
 
 @media screen and (max-width: 768px) {
-  .img2 {
-    display: initial;
-  }
-  .img1{
-    display: none;
-  }
   .prf-wrap {
     width: 80%;
     height: 800px;
@@ -213,6 +203,7 @@ export default {
     width: 100%;
     margin-top: 30px;
   }
+  /* 猫 */
   .cat2 img {
     width: 10%;
     height: 13%;
@@ -261,10 +252,11 @@ export default {
     font-size: 10px;
   }
  .second-wrap {
+    width: 85%;
     height: auto;
     margin: auto;
     padding-bottom: 25px;
-    border-radius: 50px;
+    border-radius: 25px;
     background-color: #fff;
  }
  .res-left,
@@ -279,6 +271,7 @@ export default {
  .res-left p {
    padding-bottom: 10px;
  }
+ /* 猫 */
  .cat2 img {
     width: 15%;
     margin-left: 80%;

@@ -59,16 +59,24 @@ body {
   font-family: 'Sen', sans-serif;
   line-height: 1.5;
 }
-h1,
+h1, h2,
 .copyright {
  font-family: 'Sofia', cursive;
 }
 h1 {
-  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 4vw;
   font-weight: initial;
-  color: #333;
+  color: #fff;
 }
 h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+h3 {
   text-align: center;
   margin-bottom: 10px;
   font-size: 16px;
@@ -96,22 +104,21 @@ h2 {
 }
 #eyechatch img {
   width: 100%;
-  height: 90%;
   object-fit: cover;
+  object-position: 50% 100%;
   vertical-align: bottom;
-}
-.img2 {
-  display: none;
 }
 .link {
   margin-left: 50px;
   color: #fac6cb;
+  cursor: pointer;
   text-decoration: none;
 }
 .link2 {
-  color: #444343;
-  text-decoration: none;
   margin: 10px 30px;
+  color: #444343;
+  cursor: pointer;
+  text-decoration: none;
 }
 .title {
   position: relative;
@@ -122,16 +129,25 @@ h2 {
 .section-title {
   text-align: center;
 }
+/* 猫 */
+.cat {
+  width: 100%;
+}
 
 @media screen and (max-width: 768px) {
   body {
     font-size: 12px;
   }
   h1 {
-    font-size: 18px;
+    font-size: 6vw;
+
     font-weight: initial;
   }
   h2 {
+    font-size: 17px;
+    font-weight: initial;
+  }
+  h3 {
     font-size: 14px;
   }
   .wing {
@@ -147,14 +163,8 @@ h2 {
     margin-bottom: initial;
   }
   #eyechatch img {
-    display: initial;
-    width: 100%;
-  }
-  .img1{
-    display: none;
-  }
-  .img2 {
-    display: initial;
+    max-width: 100%;
+    height: auto;
   }
   .title {
     margin-top: 40px;
@@ -165,16 +175,13 @@ h2 {
   body {
     font-size: 11px;
   }
-  h1 {
+  h2 {
     font-size: 12px;
   }
-
+  
   .title {
     margin-top: 25px;
     margin-bottom: 0;
-  }
-  .img1 {
-    display: none;
   }
   .wing {
     width: 35%;
