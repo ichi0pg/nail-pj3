@@ -55,7 +55,7 @@ a {
 body {
   background-color: rgba(250, 198, 203, 0.48);
   color: #333;
-  font-size: 16px;
+  font-size: 1vw;
   font-family: 'Sen', sans-serif;
   line-height: 1.5;
 }
@@ -66,7 +66,7 @@ h1, h2,
 h1 {
   width: 100%;
   text-align: center;
-  font-size: 4vw;
+  font-size: 7vw;
   font-weight: initial;
   color: #fff;
 }
@@ -102,6 +102,10 @@ h3 {
   width: 100%;
   z-index: 100;
 }
+
+#eyechatch {
+  position: relative;
+}
 #eyechatch img {
   width: 100%;
   object-fit: cover;
@@ -135,28 +139,6 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    font-size: 12px;
-  }
-  h1 {
-    font-size: 6vw;
-
-    font-weight: initial;
-  }
-  h2 {
-    font-size: 17px;
-    font-weight: initial;
-  }
-  h3 {
-    font-size: 14px;
-  }
-  .wing {
-    width: 30%;
-  }
-  .wing2 {
-    width: 55%;
-  }
-
   #eyechatch {
     background-image: initial;
     height: initial;
@@ -170,15 +152,26 @@ h3 {
     margin-top: 40px;
   }
 
-}
-@media screen and (max-width: 480px) {
-  body {
-    font-size: 11px;
+  h1 {
+    font-size: 6vw;
+    font-weight: initial;
   }
   h2 {
-    font-size: 12px;
+    font-size: 17px;
+    font-weight: initial;
   }
-  
+  h3 {
+    font-size: 14px;
+  }
+  .wing {
+    width: 30%;
+  }
+  .wing2 {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) {
   .title {
     margin-top: 25px;
     margin-bottom: 0;
@@ -187,10 +180,13 @@ h3 {
     width: 35%;
   }
   .wing2 {
-    width: 65%;
+    width: 90%;
   }
   .main-title {
     font-size: 14px;
+  }
+  h2 {
+    font-size: 12px;
   }
 }
 </style>

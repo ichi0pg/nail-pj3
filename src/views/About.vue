@@ -17,7 +17,7 @@
           <div class="about">
             <h3>LUNA NAILについて</h3>
             <p class="ab-first">
-              <br>2015年から自宅で友人、知り合いのみにネイルをしています。<br>副業でネイルをしているので、土日のみの施術となります。<br><br>仕事などの関係で施術できる日にち、時間が限られているので友人や知り合いのみの完全紹介制となっております。<br><br>当店ではジェルネイルの持ちを良くするために、ケアに時間をかけさせていただいております。<br>自爪が薄い / 他店で持ちが良くない / アレルギーがある<br>などのご相談もお気軽にお話しください。<br><br>オフの際には毎回溶剤でオフをしていると自爪に負担がかかってしまうので、フィルインという技法で行っています。<br><br>1日1人なので、時間に制限はありません。<br>施術をしながらNetflixなども見られますので、ゆっくりしていってください。<br><br><br><small>※紹介以外の方や、爪や皮膚の病気がある方は、衛生上の問題でお断りさせていただいています</small><br><br><br></p>
+              <br>2015年から自宅で友人、知り合いのみにネイルをしています。<br>副業でネイルをしているので、土日のみの施術となります。<br><br>仕事などの関係で施術できる日にち、時間が限られているので友人や知り合いのみの完全紹介制となっております。<br><br>当店ではジェルネイルの持ちを良くするために、ケアに時間をかけさせていただいております。<br>自爪が薄い / 他店で持ちが良くない / アレルギーがある<br>などのご相談もお気軽にお話しください。<br><br>オフの際には毎回溶剤でオフをしていると自爪に負担がかかってしまうので、フィルインという技法で行っています。<br><br>1日1人なので、時間に制限はありません。<br>施術をしながらNetflixなども見られますので、ゆっくりしていってください。<br><br><br>※紹介以外の方や、爪や皮膚の病気がある方は、衛生上の問題でお断りさせていただいています<br><br><br></p>
           </div>
         </div>
       </div>
@@ -73,70 +73,67 @@ export default {
 </script>
 
 <style>
+.top-title {
+  position: absolute;
+  width: 100%;
+  bottom: 5%;
+  margin-left: 50px;
+  text-align: left;
+  font-size: 8vw;
+}
+
 .about-menu2,
 .about-menu3 {
   margin-top: 60px;
 }
-
-.about-wrap {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  width: 90%;
-  height: 630px;
-  margin: auto;
-  background-color: #fff;
-  border-radius: 50px;
-}
-.about-wrap2 {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  width: 90%;
-  height: 380px;
-  margin: auto;
-  padding-bottom: 30px;
-  background-color: #fff;
-  border-radius: 50px;
-  text-align: center;
-}
+.about-wrap,
+.about-wrap2,
 .about-wrap3 {
   display: flex;
   justify-content: center;
   position: relative;
-  width: 90%;
-  height: 1250px;
+  width: 80%;
   margin: auto;
+  text-align: center;
   background-color: #fff;
   border-radius: 50px;
-  text-align: center;
+}
+.about-wrap {
+  height: 700px;
+}
+.about-wrap2 {
+  height: 380px;
+  padding-bottom: 10px;
+}
+.about-wrap3 {
+  height: 1300px;
 }
 
-.about {
+.about, 
+.about3 {
   position: absolute;
   width: 80%;
-  height: fit-content;
-  padding: 20px;
+  top: 50%;
+}
+.about {
   top: 50%;
   transform: translateY(-50%);
-  text-align: center;
+  padding: 30px;
   background-color: #fce3e5;
   border-radius: 50px;
 }
 .about2 {
   position: absolute;
   width: 90%;
-  top: 50px;
+  top: 30%;
+  transform: translateY(-30%);
   display: flex;
   margin: auto;
 }
 .about3 {
-  position: absolute;
-  width: 80%;
-  height: fit-content;
   top: 50%;
   transform: translateY(-50%);
-  padding: 20px;
+  padding: 30px;
   background-color: #fce3e5;
   border-radius: 50px;
 }
@@ -144,15 +141,15 @@ export default {
 .ab-center,
 .ab-right {
   width: 25%;
-  height: 250px;
+  height: fit-content;
   margin: auto;
   padding: 20px;
   background-color: #fce3e5;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 .ab-first,
 .ab-last {
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 .ab-first p {
@@ -167,7 +164,7 @@ export default {
   width: 80%;
   margin: auto;
   text-align: center;
-  font-size: 12px;
+  font-size: 1vw;
 }
 button {
   padding: 5px 15px;
@@ -194,35 +191,54 @@ button {
 }
 
 @media screen and (max-width: 768px) {
+  .top-title {
+    position: absolute;
+    bottom: 3%;
+    font-size: 9vw;
+  }
+  .about-wrap,
+  .about-wrap2,
+  .about-wrap3 {
+    width: 100%;
+    border-radius: initial;
+  }
   .about-wrap {
-    width: 80%;
-    height: 650px;
+    width: 100%;
+    height: 750px;
   }
   .about-wrap2 {
-    width: 80%;
+    width: 100%;
     height: 880px;
   }
   .about-wrap3 {
-    width: 80%;
-    height: 1230px;
+    width: 100%;
+    height: 1300px;
+  }
+
+  .about,
+  .about3 {
+    width: 70%;
   }
   .about2 {
     display: block;
     width: 100%;
-    top: 40px;
   }
   .ab-left,
   .ab-center,
   .ab-right {
-    width: 80%;
+    width: 70%;
     height: 200px;
     margin-bottom: 30px;
+  }
+  .ab-first p,
+  .ab-last p {
+    font-size: 1vh;
   }
   .ab-left p,
   .ab-center p,
   .ab-right p {
     width: 65%;
-    font-size: 12px;
+    font-size: 1vh;
   }
   .ab-button {
     bottom: -25px;
@@ -236,6 +252,11 @@ button {
 }
 
 @media screen and (max-width: 480px) {
+  .top-title {
+    position: absolute;
+    bottom: 3%;
+    margin-left: 20px;
+  }
   .about-wrap {
     height: 600px;
     border-radius: 25px;

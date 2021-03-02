@@ -69,30 +69,31 @@ export default {
 </script>
 
 <style>
+.top-title5 {
+  position: absolute;
+  bottom: 10%;
+}
 .section-title {
   text-align: center;
 }
-
 .prf-wrap {
   display: flex;
-  position: relative;
-  width: 90%;
-  height: 420px;
+  width: 80%;
+  height: 500px;
   margin: auto;
   background-color: #fff;
   border-radius: 50px;
 }
-.prf-left {
-  width: 300px;
-}
 .prf-img {
-  height: 350px;
+  width: 100%;
+  height: 80%;
   object-fit: cover;
-  margin: 35px;
+  margin: 45px;
   border-radius: 50px;
 }
 .wrap {
-  width: 60%;
+  position: relative;
+  width: 50%;
   height: 80%;
   margin: auto;
   background-color: #fce3e5;
@@ -105,33 +106,33 @@ export default {
 
 .prf-center p {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 40%;
-  font-size: 14px;
+  width: 35%;
+  top: 55px;
+  left: 30px;
 }
 .prf-right p {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 65%;
-  font-size: 14px;
-  line-height: 2em;
+  width: 45%;
+  top: 45px;
+  left: 50%;
+}
+.prf-left {
+  width: 30%;
 }
 
 .second-wrap {
   position: relative;
   display: flex;
-  width: 90%;
-  height: 400px;
+  width: 80%;
+  height: 550px;
   margin: auto;
   border-radius: 50px;
   background-color: #fff;
 }
 .res-left,
 .acc-right {
-  width: 80%;
-  height: 270px;
+  width: 75%;
+  height: 350px;
   margin: auto;
   padding: 20px;
   border-radius: 50px;
@@ -142,7 +143,6 @@ export default {
   width: 80%;
   margin: auto;
   margin-top: 20px;
-  font-size: 14px;
 }
 
 /* 猫 */
@@ -156,35 +156,34 @@ export default {
 @media screen and (max-width: 768px) {
   .prf-wrap {
     width: 80%;
-    height: 800px;
+    height: 700px;
   }
   .second-wrap {
     display: block;
     height: fit-content;
     width: 80%;
   }
-  .prf-left {
-    width: 50%;
-  }
-  .prf-center p {
-    top: 20%;
-    transform: translateY(-20%);
-    left: 60%;
-    font-size: initial;
-  }
-  .prf-right p {
-    width: 100%;
-    top: 93%;
-    left: 0;
-    right: 0;
-    transform: translateY(-100%);
-    text-align: center;
-    font-size: initial;
-  }
   .prf-img {
     width: 100%;
     height: 45%;
+    margin-left: 20px;
+    border-radius: 25px;
   }
+  .prf-left {
+    width: 40%;
+  }
+  .prf-center p {
+    top: 30px;
+    width: 70%;
+  }
+  .prf-right p {
+    width: 100%;
+    top: 100%;
+    left: -40%;
+    transform: translateY(-100%);
+    text-align: center;
+  }
+
   .wrap {
     background-color: initial;
   }
@@ -202,6 +201,7 @@ export default {
   .acc-right p {
     width: 100%;
     margin-top: 30px;
+    font-size: 1vh;
   }
   /* 猫 */
   .cat2 img {
@@ -223,22 +223,22 @@ export default {
   .prf-img {
     width: 35%;
     height: 75%;
-    margin-bottom: 0;
-    border-radius: 25px;
+    margin: 25px;
+    border-radius: 20px;
   }
   .wrap {
     background-color: initial;
     height: initial;
+    width: 80%;
   }
   .prf-left {
     width: 100%;
   }
   .prf-center p {
-    width: 40%;
-    top: 10%;
+    width: 45%;
+    top: -130%;
     left: 50%;
     transform: translateY(-10px);
-    font-size: 10px;
   }
   .prf-right {
     text-align: center;
@@ -263,10 +263,6 @@ export default {
  .acc-right {
    background-color: initial;
    width: 80%;
- }
- .res-left p,
- .acc-right p {
-   font-size: 11px;
  }
  .res-left p {
    padding-bottom: 10px;

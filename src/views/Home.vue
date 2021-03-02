@@ -304,7 +304,7 @@ a.btn-sns {
   .sub-wrap {
     background-color: initial;
     height: 850px;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
   }
   .sns-wrap p {
     color: #000;
