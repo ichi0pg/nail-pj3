@@ -89,6 +89,8 @@ export default {
   bottom: 10%;
   right: 0;
   margin: auto;
+  font-size: initial;
+  font-size: 4vw;
 }
 /* main-wrap */
 .main-wrap {
@@ -239,6 +241,7 @@ a.btn-sns {
     position: absolute;
     width: 100%;
     bottom: 15%;
+    font-size: 5vw;
   }
   /* main-wrap */
   .main-wrap {

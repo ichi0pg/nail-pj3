@@ -3,6 +3,7 @@
     <Header />
     <div id="eyechatch">
       <img src="../assets/menu.jpg">
+       <h1 class="top-title">MENU</h1>
     </div>
     <div class="main">
       <div class="title">
@@ -275,6 +276,16 @@ export default {
 </script>
 
 <style>
+h1 {
+  width: initial;
+}
+.top-title {
+  position: absolute;
+  bottom: 5%;
+  margin-left: 5%;
+  text-align: left;
+  font-size: 8vw;
+}
 body {
   font-size: 15px;
 }
@@ -319,19 +330,11 @@ a.gel-nav {
   display: block;
   position: relative;
   width: 80%;
+  height: max-content;
   margin: auto;
   padding: 25px 0;
   background-color: #fde3e5;
   border-radius: 50px;
-}
-.menu-wrap {
-  height: fit-content;
-}
-.gel-wrap {
-  height: 270px;
-}
-.careoff-wrap {
-  height: 360px;
 }
 .other-wrap {
   height: 1150px;
@@ -493,13 +496,13 @@ p.menu-title {
     padding-bottom: 25px;
   }
   .gel-wrap {
-    height: 400px;
+    height: max-content;
   }
   .careoff-wrap {
-    height: 550px;
+    height: max-content;
   }
   .other-wrap {
-    height: 1070px;
+    height: max-content;
   }
 
   .menu1, .menu2, .menu3, .menu4,
@@ -570,15 +573,6 @@ p.menu-title {
   .careoff-wrap,
   .other-wrap {
     border-radius: 25px;
-  }
-  .gel-wrap {
-    height: 300px;
-  }
-  .careoff-wrap {
-    height: 400px;
-  }
-  .other-wrap {
-    height: 970px;
   }
   .menu-title {
     font-size: 12px;

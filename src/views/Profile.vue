@@ -38,7 +38,7 @@
           <div class="wrap2">
             <div class="res-left">
               <h3>予約ついて</h3>
-              <p class="reserve"><b>土日限定<br>予約時間9:00~14:00</b><br><br>仕事などの関係で希望日に予約がとれない場合があります。<br><br>18:00までには終わらせたいので、時間に縛りはありませんがデザイン等悩まれる方は、時間にゆとりを持って予約をしていただくようにお願いします。</p>
+              <p class="reserve"><b>土日限定<br>予約時間9:00~14:00</b><br><br>仕事などの関係で希望日に予約がとれないことがあります。<br><br>18:00までには終わらせたいので、時間に縛りはありませんがデザイン等悩まれる方は、時間にゆとりを持って予約をしていただくようにお願いします。</p>
             </div>
           </div>
           <div class="wrap2">
@@ -124,15 +124,16 @@ export default {
   position: relative;
   display: flex;
   width: 80%;
-  height: 550px;
+  height: max-content;
   margin: auto;
+  padding: 25px 0;
   border-radius: 50px;
   background-color: #fff;
 }
 .res-left,
 .acc-right {
   width: 75%;
-  height: 350px;
+  height: 330px;
   margin: auto;
   padding: 20px;
   border-radius: 50px;
@@ -178,7 +179,7 @@ export default {
   }
   .prf-right p {
     width: 100%;
-    top: 100%;
+    top: 95%;
     left: -40%;
     transform: translateY(-100%);
     text-align: center;
@@ -188,7 +189,7 @@ export default {
     background-color: initial;
   }
   .wrap2 {
-    width: 80%;
+    width: 90%;
     padding-top: 10px;
     padding-bottom: 20px;
   }
@@ -201,7 +202,6 @@ export default {
   .acc-right p {
     width: 100%;
     margin-top: 30px;
-    font-size: 1vh;
   }
   /* 猫 */
   .cat2 img {
