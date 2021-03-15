@@ -347,7 +347,7 @@ a.btn-sns {
   .cat1 img {
     width: 15%;
     height: 15%;
-    bottom: -115px;
+    bottom: -145px;
     object-fit: contain;
   }
 }
@@ -419,7 +419,7 @@ a.btn-sns {
   }
   /* 猫 */
   .cat1 img {
-    bottom: -136px;
+    bottom: -133px;
   }
 }
 </style>

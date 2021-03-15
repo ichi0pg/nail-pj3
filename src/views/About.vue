@@ -158,7 +158,7 @@ body {
 }
 .ab-first,
 .ab-last {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 .ab-first p {
@@ -228,7 +228,6 @@ button {
   .ab-left p,
   .ab-center p,
   .ab-right p {
-    width: 65%;
     font-size: 1vh;
   }
   .ab-button {
@@ -248,16 +247,16 @@ button {
     bottom: 3%;
     margin-left: 20px;
   }
-  .about {
-    border-radius: 25px;
-  }
+  .about,
   .about3 {
+    padding: 25px;
     border-radius: 25px;
   }
   .about-menu,
   .about-menu2,
   .about-menu3 {
     padding: initial;
+    margin-top: 40px;
     border-radius: 25px;
   }
   .about-wrap,

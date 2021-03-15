@@ -40,10 +40,9 @@
         <div class="gel-wrap">
           <div class="wrapper">
             <div class="menu1">
+              <p class="menu-title">基本メニュー</p>
+              <hr class="hr2">
               <table class="table1">
-                <tr>
-                  <th class="menu-title">基本メニュー</th>
-                </tr>
                 <tr>
                   <th>・ハンドジェル</th><td>¥5,500</td>
                 </tr>
@@ -52,12 +51,11 @@
                 </tr>
               </table>
             </div>
-            <hr class="hr1">
+
             <div class="menu2">
+              <p class="menu-title">定番ネイル -ハンド-</p>
+              <hr class="hr2">
               <table class="table2">
-                <tr>
-                  <th class="menu-title">定額ネイル&emsp;-ハンド-</th>
-                </tr>
                 <tr>
                   <th>・SIMPLE</th><td>¥6,000</td>
                 </tr>
@@ -69,13 +67,11 @@
                 </tr>
               </table>
             </div>
-            <hr class="hr2">
-            <hr class="hr3">
+
             <div class="menu3">
+              <p class="menu-title">定額ネイル -フット-</p>
+              <hr class="hr3">
               <table class="table3">
-                <tr>
-                  <th class="menu-title">定額ネイル&emsp;-フット-</th>
-                </tr>
                 <tr>
                   <th>・SIMPLE</th><td>¥6,500</td>
                 </tr>
@@ -103,10 +99,9 @@
         <div class="careoff-wrap">
           <div class="wrapper">
             <div class="menu1">
+              <p class="menu-title">ケア</p>
+              <hr class="hr2">
               <table class="table1">
-                <tr>
-                  <th class="menu-title">ケア</th>
-                </tr>
                 <tr>
                   <th>ハンドケア</th>
                 </tr>
@@ -119,12 +114,11 @@
                 </tr>
               </table>
             </div>
-            <hr class="hr1">
+
             <div class="menu2">
+              <p class="menu-title">オプション</p>
+              <hr class="hr2">
               <table class="table2">
-                <tr>
-                  <th class="menu-title">オプション</th>
-                </tr>
                 <tr>
                   <th>・ハンドマッサージ</th><td>¥500</td>
                 </tr>
@@ -139,18 +133,16 @@
                 </tr>
               </table>
             </div>
-            <hr class="hr4">
-            <hr class="hr5">
+
             <div class="menu4">
+              <p class="menu-title">ケア & オフ</p>
+              <hr class="hr3">
               <table class="table4">
                 <tr>
-                  <th class="menu-title">オフ&emsp;＆&emsp;フィルイン</th>
+                  <th>・1ヶ月以内 当店付け替え</th><td>無料</td>
                 </tr>
                 <tr>
-                  <th>・1ヶ月以内&emsp;当店付け替え</th><td>無料</td>
-                </tr>
-                <tr>
-                  <th>・1ヶ月以上&emsp;当店付け替え</th><td>¥200/1本</td>
+                  <th>・1ヶ月以上 当店付け替え</th><td>¥200/1本</td>
                 </tr>
                 <tr>
                   <th>・他店オフ（溶剤オフのみ）</th><td>¥300/1本</td>
@@ -176,26 +168,23 @@
       <div class="other">
         <div class="other-wrap">
           <div class="wrapper">
-            <hr class="hr6">
             <div class="menu5">
+              <p class="menu-title">長さだし</p>
+              <hr class="hr1">
               <table class="table5">
                 <tr>
-                  <th class="menu-title">長さだし</th>
+                  <th>・アクリルスカルプチュア</th><td>1cmまで ¥500/1本</td>
                 </tr>
                 <tr>
-                  <th>・アクリルスカルプチュア</th><td>1cmまで&emsp;¥500/1本</td>
-                </tr>
-                <tr>
-                  <th style="font-size: 10px;">アクリルでアレルギーのある方は、ジェルで対応させていただきます。</th><td>1cm以上&emsp;¥800/1本</td>
+                  <th style="font-size: 10px;">アクリルでアレルギーのある方は、ジェルで対応させていただきます。</th><td>1cm以上 ¥800/1本</td>
                 </tr>
               </table>
             </div>
-            <hr class="hr7">
+
             <div class="menu6">
+              <p class="menu-title">アートメニュー</p>
+              <hr class="hr1">
               <table class="table6">
-                <tr>
-                  <th class="menu-title">アートメニュー</th>
-                </tr>
                 <tr>
                   <th>・ラメフレンチ/逆フレンチ/マーブル/ラメ<br>ラメフレンチ/ラメグラデーション/ドット/ラインアート</th><td><br>¥200/1本</td>
                 </tr>
@@ -213,12 +202,11 @@
                 </tr>
               </table>
             </div>
-            <hr class="hr8">
+            
             <div class="menu7">
+              <p class="menu-title">その他アート・パーツ</p>
+              <hr class="hr1">
               <table class="table7">
-                <tr>
-                  <th class="menu-title">その他アート・パーツ</th>
-                </tr>
                 <tr><th>・カラー/ラメライン</th><td>¥100</td></tr>
                 <tr><th>・マットコート</th><td>¥150</td></tr>
                 <tr><th>・ホロちらし</th><td>¥100</td></tr>
@@ -229,7 +217,7 @@
                 <tr><th>・ラメちらし</th><td>¥50</td></tr>
                 <tr><th>・フィルム（全体）</th><td>¥150</td></tr>
                 <tr><th>・フィルム（ポイント）</th><td>¥50</td></tr>
-                <tr><th>・スワロ&emsp;ss3~</th><td>¥50~</td></tr>
+                <tr><th>・スワロ ss3~</th><td>¥50~</td></tr>
                 <tr><th>・パール（半球）</th><td>¥50~</td></tr>
                 <tr><th>・パール（球体）</th><td>¥50~</td></tr>
                 <tr><th>・スタッズ</th><td>¥50</td></tr>
@@ -240,7 +228,7 @@
                 <tr><th>・ラインテープ</th><td>¥10/1cm</td></tr>
                 <tr><th>・ビジュー盛り</th><td>¥300/M¥400/L¥500</td></tr>
                 <tr><th>・3Dスワロボール</th><td>S¥500/M¥1,000/L¥1,500</td></tr>
-                <tr><th>・3D&emsp;NAIL&emsp;ART</th><td>¥800~</td></tr>
+                <tr><th>・3D NAIL ART</th><td>¥800~</td></tr>
               </table>
             </div>
           </div>
@@ -251,6 +239,7 @@
         </div>
       </div>
     </div>
+
     <div class="cat4">
       <img src="../assets/cat4.png" alt="cat1">
     </div>
@@ -393,15 +382,18 @@ th {
 .table1,
 .table2 {
   width: 40%;
+  padding-top: 10px;
 }
 .table3,
 .table4 {
   width: 70%;
+  padding-top: 10px;
 }
 .table5,
 .table6,
 .table7 {
   width: 100%;
+  padding-top: 10px;
 }
 table tr {
   text-align: left;
@@ -411,51 +403,23 @@ table td {
 }
 
 /* 平行線 */
+/* 平行線 */
 hr {
-  width: 35%;
-  background-color: #212020;
-}
-.hr1, .hr2, .hr3, .hr4,
-.hr5, .hr6, .hr7, .hr8 {
   position: absolute;
+  background-color: #212020;
+  margin-bottom: 5px;
 }
 .hr1 {
-  top: 50px;
-  left: 8%;
+  width: 100%;
 }
 .hr2 {
-  top: 185px;
-  left: 8%;
+  width: 35%;
 }
 .hr3 {
-  top: 185px;
-  right: 7%;
+  width: 72%;
 }
-.hr4 {
-  top: 240px;
-  left: 8%;
-}
-.hr5 {
-  width: 36%;
-  top: 50px;
-  right: 7%;
-}
-.hr6 {
-  width: 80%;
-  top: 50px;
-}
-.hr7 {
-  width: 80%;
-  top: 200px;
-}
-.hr8 {
-  width: 80%;
-  top: 500px;
-}
-
 
 .menu-title {
-  padding-bottom: 20px;
   font-size: 18px;
 }
 p.menu-title {
@@ -492,7 +456,8 @@ p.menu-title {
     width: 80%;
   }
   .menu2,
-  .menu5 {
+  .menu5,
+  .menu6 {
     padding-bottom: 25px;
   }
   .gel-wrap {
@@ -516,40 +481,14 @@ p.menu-title {
   .table4, .table5, .table6, .table7 {
     width: 100%;
   }
-  .table7 {
-    margin-top: 20px;
-  }
 
   /* 平行線 */
-  hr {
-    width: 80%;
-  }
-  .hr1 {
-    left: initial;
-  }
-  .hr2 {
-    top: 185px;
-    left: initial;
-  }
+  .hr1,
+  .hr2,
   .hr3 {
-    top: 345px;
-    right: initial;
-  }
-  .hr4 {
-    top: 240px;
-    left: initial;
-  }
-  .hr5 {
     width: 80%;
-    top: 430px;
-    right: initial;
   }
-  .hr7 {
-    top: 185px;
-  }
-  .hr8 {
-    top: 460px;
-  }
+
   /* 猫 */
   .cat4 img {
     left: 20px;
@@ -587,45 +526,9 @@ p.menu-title {
   th {
     width: 70%;
     padding-bottom: 3px;
+    font-size: 10px;
   }
 
-  /* 平行線 */
-  hr {
-    width: 80%;
-  }
-  .hr1 {
-    top: 45px;
-    left: initial;
-  }
-  .hr2 {
-    top: 150px;
-    left: initial;
-  }
-  .hr3 {
-    top: 275px;
-    right: initial;
-  }
-  .hr4 {
-    top: 190px;
-    left: initial;
-  }
-  .hr5 {
-    width: 80%;
-    top: 335px;
-    right: initial;
-  }
-  .hr6 {
-    top: 45px;
-  }
-  .hr7 {
-    top: 175px;
-  }
-  .hr8 {
-    top: 495px;
-  }
-  .menu-title {
-    padding-bottom: 15px;
-  }
   .memo {
     font-size: 10px;
   }

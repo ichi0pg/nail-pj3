@@ -157,7 +157,7 @@ export default {
 @media screen and (max-width: 768px) {
   .prf-wrap {
     width: 80%;
-    height: 700px;
+    height: 650px;
   }
   .second-wrap {
     display: block;
@@ -167,7 +167,7 @@ export default {
   .prf-img {
     width: 100%;
     height: 45%;
-    margin-left: 20px;
+    margin-left: 50px;
     border-radius: 25px;
   }
   .prf-left {
@@ -176,10 +176,11 @@ export default {
   .prf-center p {
     top: 30px;
     width: 70%;
+    left: 20%;
   }
   .prf-right p {
     width: 100%;
-    top: 95%;
+    top: 100%;
     left: -40%;
     transform: translateY(-100%);
     text-align: center;
@@ -196,6 +197,7 @@ export default {
   .res-left,
   .acc-right {
     background-color: initial;
+    padding: initial;
     height: fit-content;
   }
   .res-left p,
@@ -217,7 +219,7 @@ export default {
   .prf-wrap {
     flex-wrap: wrap;
     width: 85%;
-    height: 480px;
+    height: 450px;
     border-radius: 25px;
   }
   .prf-img {
@@ -230,13 +232,17 @@ export default {
     background-color: initial;
     height: initial;
     width: 80%;
+    margin-top: 0;
+  }
+  .wrap2 {
+    padding-top: 25px;
   }
   .prf-left {
     width: 100%;
   }
   .prf-center p {
     width: 45%;
-    top: -130%;
+    top: -115%;
     left: 50%;
     transform: translateY(-10px);
   }
@@ -255,7 +261,7 @@ export default {
     width: 85%;
     height: auto;
     margin: auto;
-    padding-bottom: 25px;
+    padding-top: 0;
     border-radius: 25px;
     background-color: #fff;
  }

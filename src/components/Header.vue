@@ -46,7 +46,7 @@ export default {
 </script>
 <style scoped>
 .header-wrap {
-  height: 90px;
+  height: 100px;
   background-color: #000;
   display: flex;
   justify-content: space-between;
@@ -71,15 +71,16 @@ a.header-nav li {
 .menu-content {
   display: none;
 }
+
 @media screen and (max-width: 768px) {
   /* hamburger */
   #hamburger {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     cursor: pointer;
-    top: 5px;
-    right: 20px;
+    top: 25%;
+    right: 30px;
     transition: 0.4s;
     z-index: 100;
   }
@@ -154,7 +155,7 @@ a.header-nav li {
     display: none;
   }
   .header-wrap {
-    height: 60px;
+    height: 80px;
   }
   .header-logo {
     height: 70%;
@@ -165,7 +166,7 @@ a.header-nav li {
   #hamburger {
     width: 10px;
     height: 10px;
-    top: 2px;
+    top: 10%;
     right: 40px;
   }
   #hamburger span {
