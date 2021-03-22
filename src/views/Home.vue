@@ -135,7 +135,7 @@ export default {
   text-align: center;
   position: absolute;
   width: 50%;
-  top: 30%;
+  top: 35%;
 }
 .link-btn {
   color: #fff;
