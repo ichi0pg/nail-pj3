@@ -85,6 +85,7 @@ h3 {
 .wing {
   position: absolute;
   width: 25%;
+  top: 5px;
   left: 0;
   right: 0;
   margin: auto;
