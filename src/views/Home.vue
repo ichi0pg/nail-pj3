@@ -203,8 +203,10 @@ a.btn-sns {
 }
 .last-btn {
   position: absolute;
+  width: 55%;
   bottom: -40px;
-  right: 25%;
+  right: 0;
+  text-align: center;
 }
 .link-btn {
   padding: 5px 15px;
@@ -357,7 +359,7 @@ a.btn-sns {
     top: 55%;
   }
   .top-title4 {
-    bottom: 10%;
+    bottom: 12%;
   }
   /*consept*/
   .order2 {
@@ -406,12 +408,14 @@ a.btn-sns {
     text-align: center;
   }
   .sns-link img {
-    width: 20px;
-    left: 38%;
+    width: 4%;
+    top: 5%;
+    left: 40%;
   }
   a.btn-sns {
     position: relative;
     top: 0px;
+    padding: 5px 15px 5px 35px;
     font-size: 12px;
   }
   .last-btn {
