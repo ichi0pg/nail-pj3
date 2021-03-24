@@ -257,8 +257,11 @@ button {
   .about-menu2,
   .about-menu3 {
     padding: initial;
-    margin-top: 40px;
     border-radius: 25px;
+  }
+  .about-menu2,
+  .about-menu3 {
+    margin-top: 40px;
   }
   .about-wrap,
   .about-wrap2,
