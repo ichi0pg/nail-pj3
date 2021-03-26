@@ -45,7 +45,6 @@
           </div>
           <div class="sns-link">
             <a @click="$router.push('/')" class="btn-sns">Instagram</a>
-            <img src="../assets/insta.png" alt="">
           </div>
         </div>
         <div class="right-img">
@@ -176,7 +175,7 @@ export default {
 a.btn-sns {
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-left: 45px;
+  padding-left: 15px;
   padding-right: 15px;
   color: #444343;
   background-color: #fce3e5;
@@ -189,11 +188,6 @@ a.btn-sns {
   width: 40%;
   left: 18%;
   top: 380px;
-}
-.sns-link img {
-  position: absolute;
-  width: 25px;
-  left: 10px;
 }
 .right-img img {
   position: absolute;
@@ -325,12 +319,8 @@ a.btn-sns {
     top: 350px;
     left: 40%;
   }
-  .sns-link img {
-    width: 22px;
-  }
   a.btn-sns {
-    padding-left: 40px;
-    font-size: 14px;
+    font-size: 12px;
   }
   .right-img img {
     width: 100%;
@@ -407,16 +397,10 @@ a.btn-sns {
     width: 100%;
     text-align: center;
   }
-  .sns-link img {
-    width: 4%;
-    top: 5%;
-    left: 40%;
-  }
   a.btn-sns {
     position: relative;
     top: 0px;
-    padding: 5px 15px 5px 35px;
-    font-size: 12px;
+    font-size: 11px;
   }
   .last-btn {
     bottom: 30px;
